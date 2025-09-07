@@ -67,7 +67,7 @@
 &trans  &kp PAGE_UP           &kp UP_ARROW  &kp PAGE_DOWN    &kp LEFT_BRACKET  &kp RIGHT_BRACKET                    &trans          &kp UP_ARROW    &trans           &trans  &trans  &kp C_VOL_UP
 &trans  &kp LEFT_ARROW        &kp DOWN      &kp RIGHT        &kp SEMICOLON     &kp SQT                              &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans  &kp C_VOL_DN
 &trans  &kp NON_US_BACKSLASH  &kp GRAVE     &kp NON_US_HASH  &kp MINUS         &kp EQUAL          &trans    &trans  &trans          &trans          &trans           &trans  &trans  &login
-                              &trans        &kp SLASH        &trans            &trans             &trans    &trans  &trans          &trans          &trans           &trans
+                              &trans        &kp SLASH        &trans            &trans             &trans    &trans  &trans          &trans          &kp SCROLLLOCK   &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
